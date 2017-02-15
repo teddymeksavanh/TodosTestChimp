@@ -17,13 +17,13 @@
 </template>
 
 <template name="override-atPwdFormBtn">
-  <button type="submit" class="btn-primary">
+  <button type="submit" class="btn-primary esgi-submit">
     {{buttonText}}
   </button>
 </template>
 
 <template name="override-atTextInput">
-  <div class="input {{#if isValidating}}validating{{/if}} {{#if hasError}}error{{/if}} {{#if hasSuccess}}has-success{{/if}} {{#if feedback}}has-feedback{{/if}}">
+  <div class="input {{#if isValidating}}validating{{/if}} {{#if hasError}}error{{/if}} {{#if hasSuccess}}has-success{{/if}} {{#if feedback}}has-feedback{{/if}} at-field-{{_id}}">
     <input type="{{type}}" id="at-field-{{_id}}" name="at-field-{{_id}}" placeholder="{{placeholder}}" autocapitalize="none" autocorrect="off">
     {{#if hasIcon}}
         <span class="{{iconClass}}"></span>
