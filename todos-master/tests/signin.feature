@@ -1,5 +1,5 @@
 @watch
-Feature: User account
+Feature: User signin
 
   As a human
   I want to loggin
@@ -13,5 +13,4 @@ Feature: User account
     When I fill the element "#at-field-password" with "123456"
     When I fill the element "#at-field-password_again" with "123456"
     When I submit "#at-pwd-form"
-    When I wait 2 sec
     Then I should see the element ".js-user-menu"
