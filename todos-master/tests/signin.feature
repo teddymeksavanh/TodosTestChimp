@@ -1,3 +1,4 @@
+@watch
 Feature: User signin
 
   As a human

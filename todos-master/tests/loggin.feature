@@ -1,4 +1,3 @@
-@watch
 Feature: User loggin
 
   As a human
